@@ -1,4 +1,5 @@
 <?php
+# Arquivo de criação, edição e exclusão dentro do banco de dados
 require_once __DIR__ . '/../config/db.php';
 
 class User {
