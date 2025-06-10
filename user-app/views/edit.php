@@ -1,4 +1,5 @@
 <?php ob_start(); ?>
+<!-- Arquivo form para edição de usuário -->
 <h2>Editar Usuário</h2>
 <form method="POST" class="row g-3">
     <div class="col-md-6">
