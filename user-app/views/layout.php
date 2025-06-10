@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+    <!-- Arquivo layout do projeto -->
 <head>
     <title><?= $title ?? 'Sistema de Usuários' ?></title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
