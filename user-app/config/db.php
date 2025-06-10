@@ -1,4 +1,5 @@
 <?php
+# Arquivo de conexão com banco de dados
 $host = 'localhost';
 $db   = 'user_app';
 $user = 'root';
