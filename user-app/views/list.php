@@ -1,4 +1,5 @@
 <?php ob_start(); ?>
+<!-- Arquivo  para lista de usuário -->
 <h2 class="mb-4">Lista de Usuários</h2>
 <a href="index.php?action=create" class="btn btn-primary mb-3">Novo Usuário</a>
 <table class="table table-bordered table-striped">
