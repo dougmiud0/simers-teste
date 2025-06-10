@@ -38,7 +38,6 @@ user-app/
 
 Crie o banco de dados MySQL com a tabela abaixo:
 
-
 ```sql
 CREATE DATABASE user_app CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 
@@ -60,8 +59,6 @@ CREATE TABLE users (
 Clone ou extraia o projeto:
 
 ```bash
-Copiar
-Editar
 git clone https://github.com/seuusuario/user-app.git
 ou extraia o .zip gerado.
 ```
@@ -69,24 +66,18 @@ ou extraia o .zip gerado.
 ## Configure as credenciais de acesso ao banco de dados no arquivo database.php:
 
 ```php
-Copiar
-Editar
 $pdo = new PDO("mysql:host=localhost;dbname=user_app", "seu_usuario", "sua_senha");
 ```
 
 ## Coloque o projeto em um servidor local como o XAMPP, WAMP, Laragon, ou use o PHP embutido:
 
 ```bash
-Copiar
-Editar
 php -S localhost:8000
 ```
 
 ## Acesse o sistema:
 
 ```bash
-Copiar
-Editar
 http://localhost:8000/index.php
 ```
 
