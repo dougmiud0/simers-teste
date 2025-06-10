@@ -1,4 +1,5 @@
 <?php
+# Paramêtros para criação, edição e exclusão do usuário.
 require_once __DIR__ . '/../models/User.php';
 
 $action = $_GET['action'] ?? 'list';
